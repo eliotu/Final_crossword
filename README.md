@@ -1,4 +1,21 @@
 # Final_crossword
+
+# Introduction
+This project is part of a CSNLP course, designed to fill crossword grids using sophisticated natural language processing (NLP) and constraint satisfaction techniques. The goal is to automate the process of solving crossword puzzles by interpreting clues, generating candidate solutions, and fitting these solutions into a given crossword grid using a satisfiability modulo theories (SMT) approach.
+
+# 1st part of the project: Question answering
+Our dataset is stored in the folder final_submission_question_answering/dataset.
+
+In order to solve the question answering we made three approaches.
+
+The lesk algorithm in [lesk_algo.ipynb](./final_submission_question_answering/lesk_algo.ipynb) and two models: bert ande T5
+
+The code to train our two models are stored in [PARTI_TF5.ipynb](./final_submission_question_answering/PARTI_TF5.ipynb)   and [PART_I_BERT_MASK.ipynb](./final_submission_question_answering/PART_I_BERT_MASK.ipynb) .
+
+You can run it, however we've stored the models in this link https://drive.google.com/drive/folders/1bMcZ1QW2pWtbJtuzKfhETwLVW29vUrtB.
+
+To test the accuracy of our models we have made this notebook [results.ipynb](./final_submission_question_answering/results.ipynb)
+
 # 2nd part of the project : grid filling 
 All the following is soterd in the grid_filling folder
 # inputs : 
