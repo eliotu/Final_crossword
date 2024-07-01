@@ -13,4 +13,4 @@ All the inputs are stored in the "data" folder
 
 # output :
 The output is sored in the "data" folder
-- [crossword_output.txt](./grid_filling/datacrossword_output.txt) : grid of the crossword filled in a .txt format
+- [crossword_output.txt](./grid_filling/data/crossword_output.txt) : grid of the crossword filled in a .txt format
